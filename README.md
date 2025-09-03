@@ -41,3 +41,14 @@ spring.datasource.url=jdbc:mysql://localhost:3306/money_management
 spring.datasource.username=root
 spring.datasource.password=your_password
 ```
+### 3. Run the project
+```bash
+mvn spring-boot:run
+```
+### 📌 Usage
+1. Access http://localhost:8080
+2. Register a new account or log in.
+3. Create/Join a house, add members, record expenses, and share bills.
+4. Use management, statistics, and notification features to track related activities.
+
+
