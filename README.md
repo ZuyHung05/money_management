@@ -28,13 +28,16 @@ It is built with **Java Spring Boot** and **MySQL**, supporting expense tracking
 ```bash
 git clone https://github.com/ZuyHung05/money_management.git
 cd money_management
+```
 ### 2. Configure the database
+
 Create a MySQL database:
 ```bash
 CREATE DATABASE money_management;
+```
 Update the database connection in src/main/resources/application.properties:
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/money_management
 spring.datasource.username=root
 spring.datasource.password=your_password
-
+```
